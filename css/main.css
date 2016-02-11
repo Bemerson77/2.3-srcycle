@@ -5848,6 +5848,11 @@ body {
   .secondary-header .line-two {
     padding-top: 20px; }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto; }
+
 .bike-photos {
   height: 250px; }
   .bike-photos div {
@@ -5878,5 +5883,11 @@ body {
 @media (max-width: 768px) {
   .main-header h1 {
     font-size: 50px; } }
+@media (min-width: 768px) {
+  .main-header h1 {
+    font-size: 60px; } }
+@media (min-width: 992px) {
+  .main-header h1 {
+    font-size: 80px; } }
 
 /*# sourceMappingURL=main.css.map */
