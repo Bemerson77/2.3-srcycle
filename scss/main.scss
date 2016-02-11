@@ -1,0 +1,127 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "variables";
+
+
+// main-header
+
+body {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.main-header {
+  background: url("../images/header-bg.jpeg") center center;
+  background-size: cover;
+  height: 500px;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+
+  .header-content {
+    position: relative;
+    padding-top: 40px;
+  }
+
+  img{
+    height: 183.5px;
+    width: 302px;
+    @extend %box-shadow;
+
+  }
+
+  h1 {
+    font-size: 80px;
+    padding-top: 80px;
+    @extend %text-shadow;
+
+  }
+
+}
+
+// secondary-header
+
+.secondary-header {
+  text-align: center;
+  height: 170px;
+
+
+  h3{
+    margin: 0 auto;
+    font-size: 30px;
+
+  }
+
+  .line-one {
+    padding-top: 40px;
+  }
+
+  .line-two {
+    padding-top: 20px;
+  }
+}
+
+// bike-photos
+
+.bike-photos {
+  height: 250px;
+
+  div{
+    height: 250px;
+  }
+
+ img {
+   padding: 0;
+   height: 100%;
+ }
+}
+
+// mid-content
+
+.mid-content {
+  text-align: center;
+  height: 200px;
+
+
+  .mid-content-contain {
+    padding-top: 20px;
+  }
+}
+
+// contact-info
+
+.contact-info {
+  background: url("../images/contact-row.jpeg") center center;
+  background-position: 50% 65%;
+  height: 400px;
+  color: white;
+  text-align: center;
+
+  .contact-info-contain {
+    padding-top: 40px;
+  }
+
+}
+
+// footer
+
+.footer {
+  text-align: center;
+  height: 100px;
+
+}
+
+// media queries
+
+@media (max-width: 768px) {
+
+.main-header {
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+ }
