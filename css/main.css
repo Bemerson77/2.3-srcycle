@@ -5883,11 +5883,8 @@ body {
 @media (max-width: 768px) {
   .main-header h1 {
     font-size: 50px; } }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .main-header h1 {
     font-size: 60px; } }
-@media (min-width: 992px) {
-  .main-header h1 {
-    font-size: 80px; } }
 
 /*# sourceMappingURL=main.css.map */
